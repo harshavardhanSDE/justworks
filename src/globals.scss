@@ -1,0 +1,46 @@
+// overlay
+$overlay-light-bg: #FFFFFF; 
+$overlay-dark-bg: #2E2E2E;
+
+// card: background
+$card-light-bg: #F6F6F6;
+$card-dark-bg: #2E2E2E;
+
+// card: foreground
+$card-dark-fg: #292929;
+$card-ligth-fg: #FFFFFF; 
+
+//buttons
+$light-button: #F6F6F6;
+$dark-button: #232323;
+
+// border 
+$light-border: #E5E5E5;
+$dark-border: #3D3D3D;
+
+// size: 
+$card-width: 670px; 
+$card-height: 424px;
+
+// text-size
+$text-size-sidebar: 14px; 
+$text-color-sidebar: #334155; 
+$text-size-card_title: 12px; 
+$text-size-card_description: 10px; 
+$button-size_text: 10px;
+
+// shadow
+$shadow: 5px 5px 33px rgba(0,0,0,.2); 
+
+// grid-template
+@mixin overlay-grid {
+    display: grid;
+    grid-template-columns: 224px auto;
+    gap: 16px;
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
