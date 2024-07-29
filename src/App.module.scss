@@ -1,5 +1,8 @@
-.page-light {
+.container-light {
     @include flex-center; 
     background-color: $overlay-light-bg;
+    width: 100vw;
+    height: 100vh;
+    
     
 }
