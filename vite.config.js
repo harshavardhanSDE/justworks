@@ -7,8 +7,8 @@ export default defineConfig({
   css: {
     preprocessorOptions : {
       scss: {
-        additionalData: `@import "globals.scss";`,
-        includePaths: ["src/**/*.scss", "node_modules"], 
+        additionalData: `@import "src/globals.scss";`,
+        includePaths: ["./src/**/*.scss", "node_modules", ], 
         outputStyle: 'compressed',
       }
     }

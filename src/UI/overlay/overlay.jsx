@@ -1,4 +1,5 @@
-import style from './overlay.module.scss'
+import style from './overlay.module.scss';
+
 const overlay = () => {
     return (
         <div className={style.overlay}>

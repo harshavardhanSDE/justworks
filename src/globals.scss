@@ -1,6 +1,6 @@
 // overlay
-$overlay-light-bg: #FFFFFF; 
-$overlay-dark-bg: #2E2E2E;
+$overlay-light-bg: #ffffff31; 
+$overlay-dark-bg: #2e2e2e2f;
 
 // card: background
 $card-light-bg: #F6F6F6;
@@ -13,6 +13,7 @@ $card-ligth-fg: #FFFFFF;
 //buttons
 $light-button: #F6F6F6;
 $dark-button: #232323;
+
 
 // border 
 $light-border: #E5E5E5;
@@ -32,11 +33,18 @@ $button-size_text: 10px;
 // shadow
 $shadow: 5px 5px 33px rgba(0,0,0,.2); 
 
+// radius
+$overlay-border-radius: 10px; 
 // grid-template
 @mixin overlay-grid {
     display: grid;
     grid-template-columns: 224px auto;
     gap: 16px;
+}
+
+@mixin overlay-size {
+    width: $card-width; 
+    height: $card-height;
 }
 
 @mixin flex-center {

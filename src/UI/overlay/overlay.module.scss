@@ -1,4 +1,11 @@
+
 .overlay {
+    @include overlay-size;
     @include overlay-grid; 
-    border-color: $light-border;
+    
+    .dark {
+        background-color: $card-dark-bg;
+        border: 1px solid $dark-border;
+    }
+    
 }
