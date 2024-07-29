@@ -39,6 +39,7 @@ $overlay-border-radius: 10px;
 @mixin overlay-grid {
     display: grid;
     grid-template-columns: 224px auto;
+    grid-template-areas: sidebar workspaceContent;
     gap: 16px;
 }
 
